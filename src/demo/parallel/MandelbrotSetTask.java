@@ -283,7 +283,7 @@ class MandelbrotSetTask extends Task<Long> {
 
     /**
      * Calculates a color of a given pixel on the image using 
-     * {@link #calc(demo.parallel.Complex) } method.
+     *  method.
      * @param x x coordinate of the pixel in the image
      * @param y y coordinate of the pixel in the image
      * @return calculated color of the pixel
@@ -330,7 +330,7 @@ class MandelbrotSetTask extends Task<Long> {
     /**
      * Returns a color for a given iteration count.
      * @param count number of iterations return by 
-     * {@link #calc(demo.parallel.Complex)} method
+     *  method
      * @return color from pre-calculated table
      */
     private Color getColor(int count) {
@@ -351,13 +351,13 @@ class MandelbrotSetTask extends Task<Long> {
          * Color stops for colors table: color values
          */
         Color[] cc = {
-            Color.rgb(40, 0, 0),
-            Color.RED,
+            Color.rgb(2, 20, 106),
+            Color.DARKGREEN,
             Color.WHITE,
+            Color.YELLOW,
+            Color.rgb(92, 166, 18),
             Color.RED,
-            Color.rgb(100, 0, 0),
-            Color.RED,
-            Color.rgb(50, 0, 0)
+            Color.rgb(3, 47, 29)
         };
         
         /**
